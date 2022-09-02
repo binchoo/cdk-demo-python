@@ -1,5 +1,9 @@
 # CDK Python 실습
 
+<img width="519" alt="image" src="https://user-images.githubusercontent.com/15683098/188101829-6d76646c-9dae-41ac-8670-8d96f3a34744.png">
+
+## 초기화 상용구
+
 ```bash
 cdk init sample-app --language python
 source .venv/bin/activate
@@ -52,7 +56,7 @@ def handler(event, context):
 
 해당 핸들러 메서드의 위치는
 
-- **CodeUri** - ****`handlers` (소스파일 위치)
+- **CodeUri** - `handlers` (소스파일 위치)
 - **Handler** - `hello.handler`  (⇒ hello.py의 handler라는 메서드)
 
 로 표현된다. 따라서 아래 람다 컨스트럭트를 만들 때 두 값을 쓰는 걸 보게 될 것이다.
